@@ -13,7 +13,7 @@ module fft_dds_signal_recovery (
 
 );
 // 信号居中处理
-wire signed [7:0] d;
+// wire signed [7:0] d;
 wire signed [7:0] n;
 assign d = D - 8'd128;                 // 混合信号居中
 assign n = noise_ref - 8'd128;         // 噪声信号居中
