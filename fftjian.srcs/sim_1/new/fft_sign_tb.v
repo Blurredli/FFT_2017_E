@@ -7,7 +7,7 @@ module fft_dds_signal_recovery_tb;
     parameter AMPLITUDE_A = 0.4;         // 
     parameter AMPLITUDE_N = 0.4;         // 
 
-    // ? & 
+    // ʱ & 
     reg clk;
     reg rst_n;
 
